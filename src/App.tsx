@@ -5,6 +5,7 @@ import { useAppDispatch, useAppSelector } from "./redux/store";
 function App() {
 
   const count = useAppSelector((state) => state.counter.value)
+  const todo = useAppSelector((state) => state.todo.value)
   const dispatch = useAppDispatch();
 
   return (

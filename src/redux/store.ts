@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
 import counterReducer from './counter/counterSlice'
+import todoReducer from './todo/todoSlice'
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
+    todo: todoReducer,
   },
 })
 
