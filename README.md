@@ -1,3 +1,9 @@
+# Redux toolkit app
+yarn create react-app redux-toolkit --template typescript
+
+# Add redux-toolkit  
+yarn add @reduxjs/toolkit react-redux
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
